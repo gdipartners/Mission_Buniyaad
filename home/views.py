@@ -77,6 +77,7 @@ def view_content_1(request):
         com1 = cn.competency_1
         sub2 = cn.subject_2
         com2 = cn.competency_2
+    print(content)
     recommended1 = std1.objects.filter(subject_1=sub1,competency_1=com1).order_by('date')
     recommended2 = std1.objects.filter(subject_1=sub2,competency_1=com2).order_by('date')
     context={
