@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Student Homepage
+{% endblock title %}
+
+{% block content %}
+<div class="row">
+  <p class="topHeading">Select your respective class and stream to access today's content</p>
+  <a href="{% url 'uploadcontent' %}">Upload Content - Admin</a>  
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <a href="{% url 'view_content' 1 %}" style="text-decoration: none;"><button type="button"
+          class="btn-grad btn-text mx-auto">Class 1</button></a>
+    </div>
+    <div class="col">
+      <a href="{% url 'view_content' 2 %}" style="text-decoration: none;"><button type="button"
+          class="btn-grad btn-text mx-auto">Class 2</button></a>
+    </div>
+    <div class="col">
+      <a href="{% url 'view_content' 3 %}" style="text-decoration: none;"><button type="button"
+          class="btn-grad btn-text mx-auto">Class 3</button></a>
+    </div>
+    <div class="col">
+      <a href="{% url 'view_content' 4 %}" style="text-decoration: none;"><button type="button"
+          class="btn-grad btn-text mx-auto">Class 4</button></a>
+    </div>
+    <div class="col">
+      <a href="{% url 'view_content' 5 %}" style="text-decoration: none;"><button type="button"
+          class="btn-grad btn-text mx-auto">Class 5</button></a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <a href="{% url 'view_content' 6 %}" style="text-decoration: none;"><button type="button"
+          class="btn-grad btn-text mx-auto">Class 6</button></a>
+    </div>
+    <div class="col">
+      <a href="{% url 'view_content' 7 %}" style="text-decoration: none;"><button type="button"
+          class="btn-grad btn-text mx-auto">Class 7</button></a>
+    </div>
+    <div class="col">
+      <a href="{% url 'view_content' 8 %}" style="text-decoration: none;"><button type="button"
+          class="btn-grad btn-text mx-auto">Class 8</button></a>
+    </div>
+    <div class="col">
+      <a href="{% url 'view_content' 9 %}" style="text-decoration: none;"><button type="button"
+          class="btn-grad btn-text mx-auto">Class 9</button></a>
+    </div>
+    <div class="col">
+      <a href="{% url 'view_content' 10 %}" style="text-decoration: none;"><button type="button"
+          class="btn-grad btn-text mx-auto">Class 10</button></a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <a href="" style="text-decoration: none;"><button type="button" class="btn-grad btn-text mx-auto">Class
+          11</button></a>
+    </div>
+    <div class="col">
+      <a href="" style="text-decoration: none;"><button type="button" class="btn-grad btn-text mx-auto">Class
+          12</button></a>
+    </div>
+  </div>
+</div>
+<div class="container-fluid p-0 mt-4"
+      style="background-image: url('/static/logos/bottombanner.png');background-size: cover;background-position: center center;height: 220px;">
+</div>
+
+{% endblock content %}

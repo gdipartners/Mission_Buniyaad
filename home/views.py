@@ -11,7 +11,7 @@ from django.utils.dateparse import parse_date
 def home(request):
     today = date.today()
     context={'today':today}
-    return render(request, 'studenthomepage.html',context)
+    return render(request, 'homepage.html',context)
 
 
 def uploadcontent(request):

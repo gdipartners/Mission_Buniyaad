@@ -1,0 +1,170 @@
+.Header{
+  font-size: 50px;
+  text-decoration: none;
+  color: rgb(224, 174, 26);
+  font-weight: bold;
+}
+
+.Header:hover{
+  color: rgb(224, 174, 26);
+}
+
+.topHeading{
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  margin-top: -15px;
+}
+
+.dateHeading{
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+
+.btn-grad {
+  background-image: linear-gradient(rgb(222, 231, 229), rgb(192, 211, 208));
+}
+
+.btn-grad {
+   margin: 10px;
+   padding: 15px 40px;
+   text-align: center;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border: none;
+   border-radius: 10px;
+   display: block;
+   text-decoration: none;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: rgb(0, 0, 0);
+   text-decoration: none;
+ }
+
+ .btn-text{
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(2 , 114, 103);
+ }
+
+
+.streamButton{
+   background-image: linear-gradient(rgb(222, 231, 229), rgb(192, 211, 208));
+   margin: 10px;
+   padding: 15px 40px;
+   text-align: center;
+   transition: 0.5s;
+   background-size: 200% auto;            
+   box-shadow: 0 0 20px #eee;
+   border: none;
+   border-radius: 10px;
+   display: inline-flex;
+   text-decoration: none;
+   font-size: 100%;
+   width: 8rem;
+}
+
+
+.btn-std {
+  background-image: linear-gradient(rgb(222, 231, 229), rgb(192, 211, 208));
+}
+
+.btn-std {
+  padding-left: 50px; 
+  padding-right: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  width: 15rem;
+ }
+
+ .btn-std:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: rgb(0, 0, 0);
+   text-decoration: none;
+ }
+
+ .btn-std-text{
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(2 , 114, 103);
+ }
+
+.subject{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: rgb(2, 114, 103);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 25px;
+}
+
+.topic{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 110%;
+  color: black;
+  margin-top: 5px;
+}
+
+
+.competency{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  margin-top: 5px;
+  font-size: 90%;
+}
+
+.assignment {
+  margin-top: 20px;
+  background-color: rgb(179, 198, 231);
+  padding-left: 50px; 
+  padding-right: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  width: 20rem;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-size: 90%;
+  text-align: center;
+ }
+
+ .recommended{
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 15px;
+ }
+
+ .quiz {
+  margin-top: 20px;
+  background-color: rgb(2, 114, 103);
+  padding-left: 50px; 
+  padding-right: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  width: 20rem;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 90%;
+  text-align: center;
+ }
+
+.quiz:hover{
+  color: white;
+}
